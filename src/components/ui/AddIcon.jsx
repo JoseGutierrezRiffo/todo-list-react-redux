@@ -19,7 +19,7 @@ const AddIconComment = ({ addComment }) => {
     <div>
       <div>
         <IconButton aria-label="delete" className={classes.margin}>
-          <AddIcon onClick={addComment} />
+          <AddIcon onClick={addComment} color="primary"/>
         </IconButton>
       </div>
     </div>

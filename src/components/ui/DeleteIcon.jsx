@@ -19,7 +19,7 @@ const DeleteIconTask = ({ deleteTodo }) => {
     <div>
       <div>
         <IconButton aria-label="delete" className={classes.margin}>
-          <DeleteIcon onClick={deleteTodo} />
+          <DeleteIcon onClick={deleteTodo} color="secondary"/>
         </IconButton>
       </div>
     </div>
